@@ -58,6 +58,39 @@ int main(){
     scanf("%i, "&N);
 
     vector =(int*)malloc(N*sizeof(int));
+    if (vector == NULL){
+        printf("No se ha podido reservar la memoria.\n");
+    }
+    else{
+        for (size_t i = 0; i < N; i++){
+            *(vector + i ) = i;
+        }
+
+        for (size_t i = 0; i < N; i++){
+            printf("&i, ", *(vector + i));
+        }
+        printf("\n");
+        
+        printf("Dime otro valor para N: ");
+        scanf("%i, "&N);
+        
+        vector =(int*)malloc(N*sizeof(int));
+        if (vector == NULL){
+            printf("No se ha podido reservar la memoria.\n");
+        } 
+        else{
+            for (size_t i = 0; i < N; i++){
+            *(vector + i ) = i;
+            }
+
+            for (size_t i = 0; i < N; i++){
+                printf("&i, ", *(vector + i));
+            }
+            
+            printf("\n");
+        }
+
+    }
 
     system("pause");
     return 0;
