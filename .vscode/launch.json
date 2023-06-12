@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Asus/Desktop/C/BLOQUE 6",
-      "program": "c:/Users/Asus/Desktop/C/BLOQUE 6/build/Debug/outDebug",
+      "cwd": "c:/Users/Asus/Desktop/3,141516/C/BLOQUE 7",
+      "program": "c:/Users/Asus/Desktop/3,141516/C/BLOQUE 7/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
