@@ -5,6 +5,9 @@
 #include <stdlib.h>
 #include <time.h>
 
+/// @brief 
+/// @param vector 
+/// @param N 
 void aleatorio(int vector[], int N);
 
 int main(){
