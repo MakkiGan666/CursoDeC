@@ -2,7 +2,7 @@
 //Y contar con un vector dinamico cuantas veces aparece cada numero 
 
 #include <stdio.h>
-#include <stdlib.h>>
+#include <stdlib.h>
 #include <time.h>
 
 void aleatorio(int vector[], int N);
@@ -14,7 +14,7 @@ int main(){
     int vector[100];
     int *contador;
 
-    contador=(int*)malloc(N*sizeof(int));//asigna espacio de memoria 
+    contador=(int*)calloc(N,sizeof(int));//asigna espacio de memoria 
     if(contador == NULL){
         printf("No se ah podido asignar la memoria.\n");
     }
